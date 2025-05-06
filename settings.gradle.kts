@@ -22,3 +22,9 @@ dependencyResolutionManagement {
 rootProject.name = "lesson4"
 include(":app")
 include(":player")
+include(":threat")
+include(":data_threat")
+include(":looper")
+include(":cryptoloader")
+include(":serviceapp")
+include(":workmanager")

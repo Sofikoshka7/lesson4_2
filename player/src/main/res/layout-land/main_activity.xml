@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="246dp"
+        android:layout_height="139dp"
+        app:srcCompat="@drawable/image"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <LinearLayout
+        android:id="@+id/informationContainer"
+        android:layout_width="731dp"
+        android:layout_height="48dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textTrackName"
+            android:layout_width="268dp"
+            android:layout_height="46dp"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:id="@+id/buttonsContainerLandscape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnPreviousLandscape"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⏮" />
+
+            <Button
+                android:id="@+id/btnPlayPauseLandscape"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="▶️" />
+
+            <Button
+                android:id="@+id/btnNextLandscape"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⏭" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
